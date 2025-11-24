@@ -1,0 +1,119 @@
+/* পুরো পেজের জন্য ফন্ট ও রঙ সেট করা */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    text-align: center; /* সবকিছু মাঝখানে আনা */
+}
+
+/* Hero সেকশনের স্টাইল */
+.hero {
+    background-color: #007BFF; /* TAHSAN'S TECH এর জন্য নীল রঙ */
+    color: white;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+/* সাধারণ সেকশন স্টাইল */
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+section h2 {
+    color: #007BFF;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #ccc;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* পণ্য কার্ডের স্টাইল */
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%; /* একটি সারিতে তিনটি কার্ড দেখানোর জন্য */
+    min-width: 280px;
+    text-align: left;
+}
+
+.product-card h3 {
+    color: #0056b3;
+    margin-top: 0;
+}
+
+/* ফর্মের স্টাইল */
+#contactForm {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+#contactForm label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#contactForm input[type="text"],
+#contactForm input[type="email"],
+#contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* প্যাডিং ইনপুটের ভেতরের অংশ রাখবে */
+}
+
+#contactForm button {
+    background-color: #28a745; /* সবুজ বোতাম */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+#contactForm button:hover {
+    background-color: #218838;
+}
+
+/* ফুটারের স্টাইল */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
+
